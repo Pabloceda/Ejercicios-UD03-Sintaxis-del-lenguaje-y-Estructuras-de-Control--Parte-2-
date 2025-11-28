@@ -13,5 +13,4 @@ def factorial():
     except ValueError:
         print("Error: Debes introducir un número entero.")
 
-if __name__ == "__main__":
-    factorial()
+factorial()

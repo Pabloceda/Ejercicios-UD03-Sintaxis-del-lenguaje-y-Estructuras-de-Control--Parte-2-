@@ -1,4 +1,3 @@
-#Codigo piramide de asteriscos invertida
 try:
     altura = int(input("Introduce la altura de la pirámide invertida: "))
     if altura <= 0:
@@ -10,4 +9,3 @@ else:
         espacios = " " * (altura - i)
         asteriscos = "*" * (2 * i - 1)
         print(espacios + asteriscos)
-#Codigo piramide de asteriscos invertida
